@@ -1,0 +1,16 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+  },
+  extends: [
+    "plugin:vue/essential",
+    "eslint:recommended"
+  ],
+  parserOptions: {
+    requireConfigFile: false
+  },
+  rules: {
+    // You can define custom rules here (optional)
+  }
+};
